@@ -36,15 +36,34 @@ h1 span {
     color: rgb(234 179 8);
 }
 
+.result-container {
+    position: relative;
+    width: 300px;
+}
+
+.history {
+    position: absolute;
+    top: -2px;
+    left: 11px;
+    margin-top: 5vh;
+    font-family: "Cubano";
+    color: rgb(18 24 27);
+    font-weight: 300;
+    font-size: 1.2rem;
+    opacity: 0.6;
+}
+
 input {
+    width: 100%;
     background-color: rgb(239 68 68);
     color: rgb(18 24 27);
     font-family: "Cubano", sans-serif;
     font-size: 2.5rem;
     border: none;
     border-radius: 10px;
-    padding: 8px 11px;
+    padding: 12px 11px;
     margin-top: 5vh;
+    overflow: scroll;
 }
 
 input[type="text"]:focus {
@@ -74,10 +93,10 @@ input[type="text"]:focus {
     grid-column: span 2;
 }
 
-.plus {
+/* .plus {
     height: 170px !important;
     grid-row: span 2;
-}
+} */
 
 .equals {
     height: 170px !important;
