@@ -4,11 +4,23 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        />
         <title>Document</title>
     </head>
     <body>
+        <nav id="nav">
+            <div class="mode-container">
+                <span id="mode">dark mode</span>
+                <img src="images/sun.png" alt="" height="40px" class="sun" id="sun">
+                <img src="images/moon.png" alt="" height="40px" class="moon" id="moon">
+            </div>
+        </nav>
         <div class="container">
-            <h1><span>Simple</span> Calculator</h1>
+            
+            <h1 id="main-text"><span id="simple">Simple</span> Calculator</h1>
             <div class="calculator">
                 <div class="result-container">
                     <input type="text" value="0" disabled id="field" />
