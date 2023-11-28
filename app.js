@@ -75,12 +75,16 @@ function append(x) {
 const clearDisplay = () => {
     displayField.value = 0;
     history.innerText = "";
+    firstNum = 0;
+    operation = '';
 };
 
 const clearOne = () => {
     displayField.value == 0
         ? (displayField.value = 0)
         : (displayField.value = displayField.value.slice(0, -1));
+
+    
 };
 
 const add = () => {
